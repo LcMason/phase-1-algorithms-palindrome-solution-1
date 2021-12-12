@@ -1,5 +1,9 @@
-function isPalindrome(word) {
-  // Write your algorithm here
+function isPalindrome(str) {
+  const reversed = str.split('').reverse().join('');
+  if (reversed === str) return true;
+
+  return false;
+  
 }
 
 /* 
